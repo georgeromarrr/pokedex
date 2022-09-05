@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Gameboy";
+  src: local("PokemonGb-RAeo"),
+    url("../fonts/PokemonGb-RAeo.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pokemon";
+  src: local("PokemonSolidNormal"),
+    url("../fonts/PokemonSolidNormal.ttf") format("truetype");
+}
+
+body {
+  background-color: #2b292c;
+  font-family: "Gameboy";
+  color: white;
+}

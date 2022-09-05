@@ -1,0 +1,18 @@
+.bg-color-red {
+  background-color: #d53b47;
+}
+
+.pokemon-font {
+  font-family: "Pokemon";
+  letter-spacing: 5px;
+}
+
+.footer-signature {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #dad33c;
+}
