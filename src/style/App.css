@@ -16,3 +16,72 @@ a {
   cursor: pointer;
   color: #dad33c;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* pokemon type background color */
+.poke-type-normal {
+  background-color: #c7cdcd;
+}
+
+.poke-type-fighting {
+  background-color: #d46622;
+}
+
+.poke-type-flying {
+  background-color: #158aac;
+}
+
+.poke-type-poison {
+  background-color: #b97fc9;
+}
+
+.poke-type-ground {
+  background-color: #beb070;
+}
+
+.poke-type-rock {
+  background-color: #729f3f;
+}
+
+.poke-type-bug {
+  background-color: #729f3f;
+}
+
+.poke-type-ghost {
+  background-color: #c7a6a8;
+}
+
+.poke-type-steel {
+  background-color: #5c4b4c;
+}
+
+.poke-type-fire {
+  background-color: #DA5158;
+}
+.poke-type-water {
+  background-color: #50c4e7;
+}
+.poke-type-electric {
+  background-color: #50c4e7;
+}
+.poke-type-ice {
+  background-color: #50c4e7;
+}
+.poke-type-dragon {
+  background-color: #f53232;
+}
+.poke-type-dark {
+  background-color: #404040;
+}
+.poke-type-fairy {
+  background-color: #faa1e0;
+}
+.poke-type-unknown {
+  background-color: #928f8f;
+}
+.poke-type-shadow {
+  background-color: #2d2c2c;
+}

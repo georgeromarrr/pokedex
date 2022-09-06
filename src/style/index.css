@@ -15,3 +15,25 @@ body {
   font-family: "Gameboy";
   color: white;
 }
+
+/* scrollbar */
+::-webkit-scrollbar {
+  background-color: #d53b47;
+  width: 5px;
+}
+
+/* scrollbar-track */
+::-webkit-scrollbar-track {
+  background-color: #2b292c;
+  margin-top: 86px;
+}
+
+/* scrollbarhandler */
+::-webkit-scrollbar-thumb {
+  background-color: #616161;
+}
+
+/* scrollbarhandler hover*/
+::-webkit-scrollbar-thumb:hover {
+  background-color: #dad33c;
+}
