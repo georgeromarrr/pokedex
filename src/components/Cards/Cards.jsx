@@ -7,11 +7,10 @@ const Cards = (props) => {
   const [isBgColor, setBgColor] = useState();
   const redirectTo = useNavigate();
   const [pokemonImage, setPokemonImage] = useState();
-  const [pokemonType, setPokemonType] = useState([]);
-  const poketype = pokemonType;
+  const [pokemonType, setPokemonType] = useState();
 
   useEffect(() => {
-    switch (poketype) {
+    switch (pokemonType) {
       case "normal":
         setBgColor(`poke-type-normal`);
         break;
@@ -69,7 +68,7 @@ const Cards = (props) => {
       default:
         setBgColor(`poke-type-unknown`);
     }
-  }, []);
+  }, [pokemonType]);
 
   //   API CALL
   useEffect(() => {
